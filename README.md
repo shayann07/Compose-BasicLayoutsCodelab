@@ -3,9 +3,6 @@
 This folder contains the solved source code for
 the [Basic Layouts in Compose Codelab](https://developer.android.com/codelabs/jetpack-compose-layouts)
 
-![App-Screenshot](https://github.com/user-attachments/assets/40f90f83-3671-4cb2-9458-14ff55dde261)
-
-
 ## License
 
 ```
