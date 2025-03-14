@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.codelab.basiclayouts.app-mergeDebugResources-61:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shaya\\.gradle\\caches\\8.12.1\\transforms\\d963ab2d1d8d3ca3507ff75cea3f34b7\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}
