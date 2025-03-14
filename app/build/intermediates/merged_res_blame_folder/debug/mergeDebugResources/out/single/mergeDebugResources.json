@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ab1_inversions.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ab1_inversions.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ab6_pre_natal_yoga.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ab6_pre_natal_yoga.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_fc5_overwhelmed.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/fc5_overwhelmed.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ab5_hiit.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ab5_hiit.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/font_lato_bold.ttf.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/font/lato_bold.ttf"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_fc4_self_massage.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/fc4_self_massage.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ab3_stretching.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ab3_stretching.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/font_kulim_park_light.ttf.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/font/kulim_park_light.ttf"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/font_lato_regular.ttf.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/font/lato_regular.ttf"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/font_kulim_park_regular.ttf.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/font/kulim_park_regular.ttf"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_fc2_nature_meditations.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/fc2_nature_meditations.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_fc3_stress_and_anxiety.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/fc3_stress_and_anxiety.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_fc6_nightly_wind_down.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/fc6_nightly_wind_down.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_fc1_short_mantras.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/fc1_short_mantras.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ab4_tabata.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ab4_tabata.jpg"
+    },
+    {
+        "merged": "com.codelab.basiclayouts.app-debug-63:/drawable_ab2_quick_yoga.jpg.flat",
+        "source": "com.codelab.basiclayouts.app-main-65:/drawable/ab2_quick_yoga.jpg"
+    }
+]
