@@ -340,12 +340,15 @@ fun MySootheApp(windowSize: WindowSizeClass) {
             MySootheAppPortrait()
         }
 
-        WindowWidthSizeClass.Expanded -> {
+        WindowWidthSizeClass.Medium, WindowWidthSizeClass.Expanded -> {
             MySootheAppLandscape()
         }
 
-    }
+        else -> {
+            MySootheAppPortrait()
+        }
 
+    }
 }
 
 private val alignYourBodyData = listOf(
