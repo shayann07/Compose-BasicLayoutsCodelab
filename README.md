@@ -1,59 +1,81 @@
 # Basic Layouts in Compose Codelab
 
-This folder contains the solved source code for
-the [Basic Layouts in Compose Codelab](https://developer.android.com/codelabs/jetpack-compose-layouts)
+Solved MySoothe sample for the Android [Basic Layouts in Compose codelab](https://developer.android.com/codelabs/jetpack-compose-layouts), demonstrating reusable and adaptive Jetpack Compose layouts.
 
-## License
+![MySoothe home screen](ScreenShot/Home%20Screen.jpg)
 
+## Overview
+
+This repository contains an educational wellness-themed interface built with Kotlin, Jetpack Compose, and Material 3. The home screen combines a search field, a horizontally scrolling set of circular activity images, a two-row horizontal grid of favorite collections, and adaptive navigation.
+
+Compact windows use a bottom navigation bar. Medium and expanded windows switch to a navigation rail beside the same scrollable home content. The code also includes focused previews for each component and complete portrait and landscape layouts.
+
+## Concepts Demonstrated
+
+- Compose modifiers, alignment, spacing, and baseline padding
+- Reusable composables and slot APIs
+- `LazyRow` and `LazyHorizontalGrid`
+- Material 3 `Surface`, `TextField`, `Scaffold`, navigation bar, and navigation rail
+- Adaptive UI with Material window size classes
+- Compact portrait and wider landscape layouts
+- Custom shapes, typography, bundled fonts, and light/dark color schemes
+- Resource-backed strings and drawable data lists
+- Component-level and screen-level Compose previews
+- Spotless and ktlint formatting configuration
+
+## App Layout
+
+1. `MainActivity` calculates the current `WindowSizeClass`.
+2. Compact widths render `MySootheAppPortrait` with a bottom bar.
+3. Medium and expanded widths render `MySootheAppLandscape` with a navigation rail.
+4. `HomeScreen` vertically composes the search field, body-alignment row, and favorite-collection grid.
+5. Static drawable/string pairs provide the visible wellness categories.
+
+## Project Structure
+
+```text
+app/src/main/
+|-- java/com/codelab/basiclayouts/
+|   |-- MainActivity.kt   # Layout components, adaptive shell, and previews
+|   `-- ui/theme/         # Colors, shapes, fonts, and Material theme
+|-- res/
+|   |-- drawable/         # Wellness photography and launcher assets
+|   |-- font/             # Kulim Park and Lato fonts
+|   `-- values/           # Strings, colors, and Android themes
+`-- AndroidManifest.xml
+
+ScreenShot/               # Repository screenshot
+ASSETS_LICENSE            # Image attribution details
+LICENSE                   # Apache License 2.0
 ```
-Copyright 2022 The Android Open Source Project
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+## Getting Started
 
-    https://www.apache.org/licenses/LICENSE-2.0
+### Prerequisites
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+- Android Studio with a JDK compatible with Android Gradle Plugin 8.9.0
+- Android SDK 35
+- An Android 6.0 (API 23) or newer device or emulator
+
+### Build
+
+```bash
+git clone https://github.com/shayann07/Compose-BasicLayoutsCodelab.git
+cd Compose-BasicLayoutsCodelab
+./gradlew assembleDebug
 ```
 
-## Image asset attributions
+On Windows PowerShell, use `./gradlew.bat assembleDebug`.
 
-[fc1_short_mantras.jpg](https://www.pexels.com/photo/body-of-water-view-1825206/) - Elizaveta Kozorezova
-[fc2_nature_meditations.jpg](https://www.pexels.com/photo/photo-of-green-leaves-3571551/) - Nothing Ahead
-[fc3_stress_and_anxiety.jpg](https://www.pexels.com/photo/aerial-view-of-body-of-water-1557238/) - Jim
-[fc4_self_massage.jpg](https://www.pexels.com/photo/photography-of-stones-1029604/) - Scott Webb
-[fc5_overwhelmed.jpg](https://www.pexels.com/photo/white-clouds-3560044/) - Ruvim
-[fc6_nightly_wind_down.jpg](https://www.pexels.com/photo/time-lapse-photo-of-stars-on-night-924824/) - Jakub Novacek
-[ab1_inversions.jpg](https://www.pexels.com/photo/low-angle-view-of-woman-relaxing-on-beach-against-blue-sky-317157/) - Chevanon Photography
-[ab2_quick_yoga.jpg](https://www.pexels.com/photo/photo-of-woman-stretching-her-body-1812964/) - Agung Pandit Wiguna
-[ab3_stretching.jpg](https://www.pexels.com/photo/photo-of-women-stretching-together-4056723/) - Cliff Booth
-[ab4_tabata.jpg](https://www.pexels.com/photo/fashion-man-people-art-4662438/) - Elly Fairytale
-[ab5_hiit.jpg](https://www.pexels.com/photo/man-wearing-white-pants-under-blue-sky-999309/) - The Lazy Artist Gallery
-[ab6_pre_natal_yoga.jpg](https://www.pexels.com/photo/woman-doing-yoga-396133/) - freestocks.org
+## Current Status and Limitations
 
-<!-- gitpulse:contribution index="1" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="2" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="3" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="4" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="5" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="6" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="7" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="8" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="9" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="10" timestamp="2026-04-24" -->
-<!-- gitpulse:contribution index="11" timestamp="2026-05-03" -->
-<!-- gitpulse:contribution index="12" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="13" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="14" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="15" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="16" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="17" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="18" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="19" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="20" timestamp="2026-05-04" -->
-<!-- gitpulse:contribution index="21" timestamp="2026-05-04" -->
+- This is a solved UI codelab, not a functional wellness product.
+- The search field is read-only because its value and change callback are fixed.
+- Home and Profile navigation items have empty click handlers and do not change screens.
+- Activity and collection cards are static display components with no click actions.
+- No persistence, networking, navigation graph, business logic, or tests were found.
+- Machine-specific `local.properties`, Gradle cache files, and a generated build report are tracked in the repository.
+
+## License and Assets
+
+The source is licensed under the [Apache License 2.0](LICENSE). Image-specific attribution and licensing details are documented in [ASSETS_LICENSE](ASSETS_LICENSE).
